@@ -1,1 +1,0 @@
-var vue_domain = "https://bejewelled-ganache-cc2f0d.netlify.app";
