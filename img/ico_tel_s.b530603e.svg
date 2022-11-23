@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 10 10">
+    <defs>
+        <clipPath id="johk3tfmba">
+            <path transform="translate(.352 .352)" style="fill:#2b6ff0" d="M0 0h10v10H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="마스크 그룹 21" transform="translate(-.351 -.351)" style="clip-path:url(#johk3tfmba)">
+        <path data-name="패스 2541" d="M.086 3.885A2.484 2.484 0 0 1 .769 1.37 6.776 6.776 0 0 1 5.419 0a7.154 7.154 0 0 1 4.535 1.37 2.411 2.411 0 0 1 .93 2.394c-.049 1.219-2.9.913-3.279.47s-.021-1.681-.191-1.841a5.686 5.686 0 0 0-2-.234 4.7 4.7 0 0 0-1.958.234c-.289.243.115 1.4-.165 1.725s-.635.444-1.4.495S.226 4.6.086 3.885z" transform="rotate(-135 5.859 4.132)" style="fill:#666"/>
+    </g>
+</svg>

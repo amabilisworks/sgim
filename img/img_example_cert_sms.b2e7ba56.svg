@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="251" height="218" viewBox="0 0 251 218">
+    <path data-name="사각형 460862" d="M20 0h137a20 20 0 0 1 20 20v198H0V20A20 20 0 0 1 20 0z" transform="translate(36)" style="fill:#e6eaee"/>
+    <path data-name="사각형 460863" d="M2 0h155a2 2 0 0 1 2 2v180H0V2a2 2 0 0 1 2-2z" transform="translate(45 36)" style="fill:#fff"/>
+    <rect data-name="사각형 460864" width="31" height="5" rx="2.5" transform="translate(109 18)" style="fill:#fff"/>
+    <text data-name="받는사람 : 1577-3043" transform="translate(53 61)" style="font-size:12px;font-family:AppleSDGothicNeo-Regular,Apple SD Gothic Neo;fill:#2b6ff0"><tspan x="0" y="0" style="fill:#000">받는사람 : </tspan><tspan y="0" style="font-family:AppleSDGothicNeo-Medium,Apple SD Gothic Neo;font-weight:500;fill:#2b6ff0">1577-3043</tspan></text>
+    <g data-name="사각형 460865" transform="translate(0 75)" style="stroke:#666;fill:#fff">
+        <rect width="251" height="119" rx="8" style="stroke:none"/>
+        <rect x=".5" y=".5" width="250" height="118" rx="7.5" style="fill:none"/>
+    </g>
+    <text data-name="[SGI서울보증] 인증문자 보내기" transform="translate(24 104)" style="font-size:14px;font-family:AppleSDGothicNeo-Bold,Apple SD Gothic Neo;font-weight:700"><tspan x="0" y="0">[SGI서울보증] 인증문자 보내기</tspan></text>
+    <text data-name="Adsfdsfdjfslfhsldfjlsdjflasdajkflsflaldjfldd jfflsdffasdfsdfadfdsafsdfsafdfsdfsdfeefff sdsdfs" transform="translate(24 127)" style="fill:#999;font-size:12px;font-family:AppleSDGothicNeo-Regular,Apple SD Gothic Neo"><tspan x="0" y="0">Adsfdsfdjfslfhsldfjlsdjflasdajkflsflaldjfldd</tspan><tspan x="0" y="18">jfflsdffasdfsdfadfdsafsdfsafdfsdfsdfeefff</tspan><tspan x="0" y="36">sdsdfs</tspan></text>
+    <path data-name="사각형 460866" transform="translate(59 152)" style="fill:#2b6ff0" d="M0 0h2v14H0z"/>
+    <g data-name="그룹 626038" transform="translate(199 150)">
+        <circle cx="16" cy="16" r="16" style="opacity:.351;fill:#2b6ff0"/>
+        <circle data-name="타원 541" cx="12" cy="12" r="12" transform="translate(4 4)" style="fill:#2b6ff0"/>
+        <g data-name="그룹 1451">
+            <path data-name="패스 2500" d="M0 6.418V0h6.418" transform="rotate(45 -4.428 24.562)" style="stroke-width:2px;stroke:#fff;stroke-linecap:round;fill:none"/>
+            <g data-name="사각형 1128" transform="translate(15.095 10.91)" style="stroke:#fff;stroke-linecap:round;fill:#fff">
+                <rect width="1.823" height="12.758" rx=".911" style="stroke:none"/>
+                <rect x=".5" y=".5" width=".823" height="11.758" rx=".411" style="fill:none"/>
+            </g>
+        </g>
+    </g>
+</svg>

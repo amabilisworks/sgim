@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
+    <defs>
+        <clipPath id="dyb310pt5a">
+            <path data-name="합치기 3" d="M5555 2317a40 40 0 1 1 79.5 6.346v31.154h-25.549A40.025 40.025 0 0 1 5555 2317z" transform="translate(-5407 -2113)" style="stroke:#707070;fill:#fff"/>
+        </clipPath>
+    </defs>
+    <g transform="translate(-148 -164)" style="clip-path:url(#dyb310pt5a)">
+        <circle data-name="타원 574" cx="40" cy="40" r="40" transform="translate(148 164)" style="fill:#e6eaee"/>
+        <g data-name="ico_card" transform="rotate(-13 197.778 249.032)">
+            <rect data-name="사각형 460995" width="77.033" height="53.547" rx="8" transform="translate(155 181.459)" style="fill:#45c1f2"/>
+            <path data-name="사각형 460996" transform="translate(155 193.672)" style="fill:#707070" d="M0 0h77.033v11.273H0z"/>
+            <g data-name="그룹 626090" transform="translate(197.274 212.46)">
+                <circle data-name="타원 571" cx="7.985" cy="7.985" r="7.985" style="fill:#f23050"/>
+                <circle data-name="타원 572" cx="8.455" cy="8.455" r="8.455" transform="translate(11.273)" style="fill:#fcb33b"/>
+            </g>
+            <path data-name="사각형 460997" transform="translate(161.576 219.036)" style="opacity:.7;fill:#fff" d="M0 0h17.849v5.637H0z"/>
+        </g>
+    </g>
+</svg>

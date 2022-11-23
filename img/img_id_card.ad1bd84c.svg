@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="269" height="166" viewBox="0 0 269 166">
+    <g data-name="id card" transform="translate(-693 -329)">
+        <rect data-name="사각형 907" width="269" height="166" rx="8" transform="translate(693 329)" style="fill:#f3f4f6"/>
+        <path data-name="사각형 908" transform="translate(844 345)" style="fill:#fff" d="M0 0h98v108H0z"/>
+        <rect data-name="사각형 914" width="28" height="5" rx="2.5" transform="translate(717 359)" style="fill:#999"/>
+        <rect data-name="사각형 920" width="38" height="5" rx="2.5" transform="translate(717 410.912)" style="fill:#d9d9d9"/>
+        <rect data-name="사각형 923" width="38" height="5" rx="2.5" transform="translate(766.212 410.912)" style="fill:#d9d9d9"/>
+        <rect data-name="사각형 924" width="38" height="5" rx="2.5" transform="translate(808 474)" style="fill:#d9d9d9"/>
+        <rect data-name="사각형 922" width="65" height="5" rx="2.5" transform="translate(717 422.211)" style="fill:#d9d9d9"/>
+        <rect data-name="사각형 915" width="18" height="5" rx="2.5" transform="translate(754.837 359)" style="fill:#999"/>
+        <rect data-name="사각형 917" width="16" height="16" rx="8" transform="translate(717 384.313)" style="fill:#3942af"/>
+        <path data-name="패스 2505" d="M3 0h10a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3a3 3 0 0 1 3-3z" transform="translate(741.786 384.313)" style="fill:#2b6ff0"/>
+        <g data-name="그룹 363" transform="translate(854 357.654)">
+            <path data-name="패스 2475" d="M449.853-312.5c-10.33 0-18.7 11.247-18.7 25.12 0 .144.005.287.008.431.008.64.029 1.275.07 1.9a2.509 2.509 0 0 1 2.521 2.256 2.484 2.484 0 0 1-1.755 3.012.263.263 0 0 1-.029 0c.14.63.3 1.247.472 1.854 2.625 9.184 9.068 15.662 17.416 15.662s14.8-6.487 17.422-15.681c.172-.6.33-1.219.469-1.846a34.482 34.482 0 0 0 .736-5.261q.059-.942.069-1.9c0-.143.008-.285.008-.428-.004-13.875-8.377-25.119-18.707-25.119z" transform="translate(-411.356 320.884)" style="fill:#f4c9b3"/>
+            <path data-name="패스 2476" d="M429.485-284.309a2.487 2.487 0 0 0 2.635 2.25 34.549 34.549 0 0 1-.737-5.27c-.048 0-.095 0-.143.008a2.484 2.484 0 0 0-1.755 3.012z" transform="translate(-411.511 323.164)" style="fill:#f4c9b3"/>
+            <path data-name="패스 2477" d="M431.988-282.06a2.484 2.484 0 0 0 1.755-3.012 2.509 2.509 0 0 0-2.521-2.256 34.549 34.549 0 0 0 .737 5.27.263.263 0 0 0 .029-.002z" transform="translate(-411.35 323.163)" style="fill:#f4c9b3"/>
+            <path data-name="패스 2478" d="M413-233.773c0-16.651 15.538-30.275 34.53-30.275h8.37c18.991 0 34.53 13.624 34.53 30.275" transform="translate(-413 325.273)" style="fill:#2b6ff0"/>
+            <path data-name="패스 2479" d="M457.015-252.8H441.6l1.2-17.981h13z" transform="translate(-410.41 324.663)" style="fill:#f4c9b3"/>
+            <rect data-name="사각형 925" width="5.505" height="1.101" rx=".505" transform="rotate(5.223 -284.714 489.344)"/>
+            <ellipse data-name="타원 27" cx="1.835" cy="2.202" rx="1.835" ry="2.202" transform="translate(43.302 32.602)"/>
+            <path data-name="패스 2480" d="M443.621-277.507a8.843 8.843 0 0 0 5.138 1.834 8.843 8.843 0 0 0 5.138-1.834" transform="translate(-410.227 324.054)" style="opacity:.5;fill:none;stroke:#eb8468;stroke-linecap:round;stroke-miterlimit:10"/>
+            <path data-name="패스 2481" d="M442.578-263.9s5.608 4.284 14.013.041l2.533 4.565 1.835 6.606-6.606 1.468-11.377.734-4.4-3.3 2.2-5.5z" transform="translate(-410.684 325.286)" style="fill:#2b6ff0"/>
+            <rect data-name="사각형 926" width="5.505" height="1.101" rx=".505" transform="rotate(174.777 16.238 15.294)"/>
+            <ellipse data-name="타원 29" cx="1.835" cy="2.202" rx="1.835" ry="2.202" transform="translate(30.091 32.602)"/>
+            <path data-name="패스 2482" d="M448.094-282.555a1.3 1.3 0 0 0-1.1.734.768.768 0 0 0 .077.866 1.662 1.662 0 0 0 1.178.378 2.5 2.5 0 0 0 1.313-.143" transform="translate(-409.93 323.597)" style="opacity:.5;fill:none;stroke:#eb8468;stroke-linecap:round;stroke-miterlimit:10"/>
+            <path data-name="패스 2483" d="M14.371 4.788s3.8 3.8 11.4 0 22.261-7.915 29.861-1.265a7.518 7.518 0 0 1 2.439 6.014c1.9.951 3 2.661 3.8 6.65 1.029 5.145-1.89 20-1.89 20l-3.163 3.272s.982-5.453-.109-8.725c-1.828-5.482-3.289-9.522-3.289-9.522s-19.575 8.746-30.024 1.146c0 0-1.976 1.886-2.85 6.65a48.121 48.121 0 0 0-.916 6.088s-12.383-9.88-5.259-30.308z"/>
+            <path data-name="패스 2484" d="M464.743-282.06a2.485 2.485 0 0 0 2.664-2.249 2.484 2.484 0 0 0-1.756-3.012 1.936 1.936 0 0 0-.21-.011 34.48 34.48 0 0 1-.736 5.261c.013.002.025.009.038.011z" transform="translate(-408.317 323.164)" style="fill:#f4c9b3"/>
+            <path data-name="패스 2485" d="M429.619-284.151a2.484 2.484 0 0 1 1.755-3.012c.048-.009.095 0 .143-.008a37.3 37.3 0 0 1-.07-1.9 3.281 3.281 0 0 0-.4.021c-2.1.362-3.447 2.681-3.015 5.177s2.481 4.226 4.577 3.864c.041-.008.076-.026.117-.035a31.594 31.594 0 0 1-.472-1.854 2.487 2.487 0 0 1-2.635-2.253z" transform="translate(-411.646 323.006)" style="fill:#f4c9b3"/>
+            <path data-name="패스 2486" d="M429.485-284.309a2.487 2.487 0 0 0 2.635 2.25 34.549 34.549 0 0 1-.737-5.27c-.048 0-.095 0-.143.008a2.484 2.484 0 0 0-1.755 3.012z" transform="translate(-411.511 323.164)" style="fill:#eb8468;opacity:.5"/>
+            <path data-name="패스 2487" d="M466.018-289.053a3.227 3.227 0 0 0-.469-.024q-.011.96-.069 1.9a1.952 1.952 0 0 1 .211.011 2.484 2.484 0 0 1 1.756 3.012 2.485 2.485 0 0 1-2.664 2.249c-.013 0-.025-.009-.038-.011-.138.627-.3 1.242-.469 1.846.061.014.117.044.18.055 2.1.362 4.146-1.368 4.578-3.864s-.92-4.812-3.016-5.174z" transform="translate(-408.356 323.006)" style="fill:#f4c9b3"/>
+            <path data-name="패스 2488" d="M464.743-282.06a2.485 2.485 0 0 0 2.664-2.249 2.484 2.484 0 0 0-1.756-3.012 1.936 1.936 0 0 0-.21-.011 34.48 34.48 0 0 1-.736 5.261c.013.002.025.009.038.011z" transform="translate(-408.317 323.164)" style="fill:#eb8468;opacity:.5"/>
+        </g>
+        <path data-name="다각형 1" d="M7.874 4.751a3 3 0 0 1 5.251 0l5.414 9.8A3 3 0 0 1 15.914 19H5.086a3 3 0 0 1-2.626-4.451z" transform="translate(762.501 381.433)" style="fill:#b4bcff"/>
+    </g>
+</svg>

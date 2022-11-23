@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="444" height="225" viewBox="0 0 444 225">
+    <g transform="translate(39 33.282)">
+        <circle data-name="Ellipse 2" cx="53.5" cy="53.5" r="53.5" transform="translate(-12.033 -33.282)" style="fill:#dcf5fb"/>
+        <circle data-name="Ellipse 2" cx="71.75" cy="71.75" r="71.75" transform="translate(233.967 20.218)" style="fill:#fbf0e3"/>
+        <circle data-name="Ellipse 2" cx="17.75" cy="17.75" r="17.75" transform="translate(183 -19.532)" style="fill:#e3e6fb"/>
+    </g>
+    <path data-name="선 223" transform="translate(42 220)" style="stroke-linejoin:round;stroke-linecap:round;stroke:#222;stroke-width:3px;fill:none" d="M0 0h360"/>
+    <g transform="translate(1105.851 -8603.215)">
+        <g data-name="그룹 630380">
+            <path data-name="패스 9212" d="M13.152 0h109.564c1.552 0 2.662.934 3.746 2.341l8.374 12.766c0 1.293-.267.5-1.819.5H2.851c-1.552 0-2.2 1.293-2.2 0L9.406 2.341A4.98 4.98 0 0 1 13.152 0z" transform="translate(-900.359 8689.322)" style="fill:#f59f75;stroke:#222;stroke-width:3px"/>
+            <g data-name="그룹 630379" transform="translate(-888.639 8656.438)">
+                <rect data-name="사각형 462443" width="52.441" height="64.615" rx="3" transform="rotate(-8 87.442 13.3)" style="fill:#9df4ef;stroke:#222;stroke-width:3px"/>
+                <rect data-name="사각형 462445" width="50.568" height="64.615" rx="3" transform="rotate(-166 54.665 35.96)" style="fill:#50ccc6;stroke:#222;stroke-width:3px"/>
+                <rect data-name="사각형 462444" width="52.441" height="64.615" rx="3" transform="rotate(-1 1236.148 -1561.087)" style="fill:#fff;stroke:#222;stroke-width:3px"/>
+            </g>
+            <path data-name="패스 9211" d="M7.492 0h130.165a2.809 2.809 0 0 1 2.809 2.809l4.682 113.31a2.809 2.809 0 0 1-2.809 2.809H2.809A2.809 2.809 0 0 1 0 116.119L4.682 2.809A2.809 2.809 0 0 1 7.492 0z" transform="translate(-905.5 8703.786)" style="fill:#f2ac58;stroke:#222;stroke-width:3px"/>
+        </g>
+        <g data-name="사각형 463032" transform="translate(-857 8705.78)" style="stroke:#222;stroke-width:3px;fill:none">
+            <rect width="48.077" height="48.636" rx="24.038" style="stroke:none"/>
+            <rect x="1.5" y="1.5" width="45.077" height="45.636" rx="22.538" style="fill:none"/>
+        </g>
+        <path data-name="사각형 463033" transform="translate(-864 8705.78)" style="fill:#f2ac58" d="M0 0h61.911v20.14H0z"/>
+        <circle data-name="타원 1228" cx="4.587" cy="4.587" r="4.587" transform="rotate(-90 3935.864 4795.514)" style="fill:#222"/>
+        <circle data-name="타원 1249" cx="4.587" cy="4.587" r="4.587" transform="rotate(-90 3957.864 4773.514)" style="fill:#222"/>
+    </g>
+    <g data-name="그룹 630377" transform="translate(1113 -8821)">
+        <path data-name="사각형 462440" d="M1 0h24a1 1 0 0 1 1 1v7a5 5 0 0 1-5 5H5a5 5 0 0 1-5-5V1a1 1 0 0 1 1-1z" transform="translate(-937 9030)" style="fill:#fff;stroke:#222;stroke-width:3px"/>
+        <path data-name="패스 9210" d="M0 0h41l-8 61H7z" transform="translate(-944 8969)" style="fill:#e9f6fd;stroke-linejoin:round;stroke:#222;stroke-width:3px"/>
+        <rect data-name="사각형 462441" width="41" height="9" rx="1" transform="translate(-944 8961)" style="fill:#fff;stroke:#222;stroke-width:3px"/>
+        <ellipse data-name="타원 1051" cx="7" cy="4" rx="7" ry="4" transform="translate(-930 8981)" style="fill:#50ccc6;stroke:#222;stroke-width:3px"/>
+    </g>
+    <g data-name="그룹 630376" transform="translate(1172 -8866)">
+        <rect data-name="사각형 462438" width="53" height="27" rx="3" transform="translate(-1039 9062)" style="fill:#e9f6fd;stroke:#222;stroke-width:3px"/>
+        <rect data-name="사각형 462439" width="42" height="8" rx="1" transform="translate(-1033 9054)" style="fill:#fff;stroke:#222;stroke-width:3px"/>
+        <path data-name="패스 9209" d="M-991.725 9053.381a8.536 8.536 0 0 0-8-5.933c-6.571-.391-10.253-2.215-6.407-6.608s-11.246-3.335-18.556 2.779-7.756 9.762-7.756 9.762z" transform="translate(0 1)" style="fill:#fff;stroke:#222;stroke-width:3px"/>
+        <circle data-name="타원 1050" cx="6" cy="6" r="6" transform="translate(-1018 9070)" style="fill:#50ccc6;stroke:#222;stroke-width:3px"/>
+    </g>
+    <g data-name="그룹 630375" transform="translate(99 103)">
+        <path data-name="합치기 20" d="M12 0a4.986 4.986 0 0 0-5 4.973L.487 55.87a27.059 27.059 0 0 0-.429 3.355L0 59.674h.032Q0 60.333 0 61a27 27 0 1 0 54 0q0-.668-.032-1.327H54l-.058-.45a27.051 27.051 0 0 0-.429-3.354L47 4.973A4.986 4.986 0 0 0 42 0z" transform="rotate(180 27 60)" style="fill:#50ccc6;stroke:#222;stroke-width:3px"/>
+        <path data-name="패스 9208" d="M20 0H3a3 3 0 0 0-3 3l-1 8a3 3 0 0 0 3 3h19a3 3 0 0 0 3-3l-1-8a3 3 0 0 0-3-3z" transform="translate(15 20)" style="fill:#fff;stroke:#222;stroke-width:3px"/>
+        <path data-name="사각형 462436" transform="translate(20 8)" style="fill:#fff;stroke:#222;stroke-width:3px" d="M0 0h13v12H0z"/>
+        <rect data-name="사각형 462437" width="35" height="9" rx="1" transform="translate(3)" style="fill:#fff;stroke-linejoin:round;stroke:#222;stroke-width:3px"/>
+        <g data-name="사각형 462442" transform="translate(16 54)" style="fill:#fff;stroke:#222;stroke-width:3px">
+            <rect width="22" height="12" rx="1" style="stroke:none"/>
+            <rect x="1.5" y="1.5" width="19" height="9" rx=".5" style="fill:none"/>
+        </g>
+    </g>
+</svg>

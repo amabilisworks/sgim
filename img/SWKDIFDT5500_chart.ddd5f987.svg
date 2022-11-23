@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="233" height="406" viewBox="0 0 233 406">
+    <defs>
+        <filter id="gzl436j9ca" x="23" y="0" width="187" height="86" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="1" result="blur"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="sqgcea70tb" x="0" y="149" width="233" height="97" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="1" result="blur-2"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur-2"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+        <filter id="3z30ojfjmc" x="23" y="309" width="187" height="97" filterUnits="userSpaceOnUse">
+            <feOffset dy="1"/>
+            <feGaussianBlur stdDeviation="1" result="blur-3"/>
+            <feFlood flood-opacity=".161"/>
+            <feComposite operator="in" in2="blur-3"/>
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-name="중앙 줄">
+        <path data-name="&gt;" d="m0 11 8-5V5L0 0z" transform="rotate(-90 92.5 1.5)" style="fill:#c3c3c7"/>
+        <path data-name="&gt;" d="m0 0 8 5v1l-8 5z" transform="rotate(90 2 141)" style="fill:#c3c3c7"/>
+        <g data-name="그룹 626081">
+            <g data-name="그룹 626087">
+                <path data-name="line" transform="rotate(-90 123.5 27.5)" style="fill:#c3c3c7" d="M0 0h65v1H0z"/>
+                <path data-name="line" transform="rotate(-90 142 5)" style="fill:#c3c3c7" d="M0 0h65v1H0z"/>
+            </g>
+        </g>
+        <g>
+            <g transform="translate(86 106)">
+                <circle data-name="타원 551" cx="10.5" cy="10.5" r="10.5" style="fill:#999fa7"/>
+                <text data-name="3" transform="translate(11 16)" style="font-weight:700;font-family:Lato-Bold,Lato;font-size:14px;fill:#fff"><tspan x="-4.06" y="0">3</tspan></text>
+            </g>
+            <g data-name="no" transform="translate(127 106)">
+                <circle data-name="타원 551" cx="10.5" cy="10.5" r="10.5" style="fill:#999fa7"/>
+                <text data-name="4" transform="translate(11 16)" style="font-weight:700;font-family:Lato-Bold,Lato;font-size:14px;fill:#fff"><tspan x="-4.06" y="0">4</tspan></text>
+            </g>
+        </g>
+    </g>
+    <g style="filter:url(#gzl436j9ca)">
+        <rect data-name="사각형 460866" width="181" height="80" rx="8" transform="translate(26 2)" style="fill:#4bacff"/>
+    </g>
+    <g data-name="그룹 626070">
+        <text data-name="SGI 서울보증" transform="translate(117 64)" style="font-family:AppleSDGothicNeo-Bold,Apple SD Gothic Neo;font-weight:700;font-size:14px;fill:#fff"><tspan x="-36.442" y="0">SGI 서울보증</tspan></text>
+        <path data-name="패스 1353" d="M0 21.77a18.293 18.293 0 0 0 6.75 2.69c5.078 1.04 10.99.7 11.022-3.426V17.76h-4.089v3.567c-2.647.228-5-1.094-5.154-3.582a3.649 3.649 0 0 1 1.952-3.454c2.13-1.2 5.979-1.1 8.972.476 6.257 3.285 5.778 11 .265 14.025C13.018 32.47 2.43 29.838 0 28.8z" transform="translate(105 12.315)" style="fill:#003174"/>
+        <path data-name="패스 1354" d="M22.91 9.793c-6.492-3.287-13.422-2.385-16.2-.136-3.1 2.509-3.161 6.662-.907 8.69-6.367-2.194-6.417-7.953-4.682-10.735C3.946 3.071 13.6.913 22.91 4.56z" transform="translate(104.972 14.283)" style="fill:#e60c19"/>
+    </g>
+    <g style="filter:url(#sqgcea70tb)">
+        <rect data-name="area" width="227" height="91" rx="8" transform="translate(3 151)" style="fill:#e6f2ff"/>
+    </g>
+    <g data-name="그룹 626086">
+        <g data-name="그룹 626076" transform="translate(47 171)">
+            <text data-name="형사피고인 법정대리인 배우자" transform="translate(7 11)" style="font-family:AppleSDGothicNeo-Regular,Apple SD Gothic Neo;font-size:12px"><tspan x="0" y="0">형사피고인</tspan><tspan x="0" y="18">법정대리인</tspan><tspan x="0" y="36">배우자</tspan></text>
+            <circle cx="1.5" cy="1.5" r="1.5" transform="translate(0 5)" style="fill:#d9d9d9"/>
+            <circle data-name="bullet" cx="1.5" cy="1.5" r="1.5" transform="translate(0 23)" style="fill:#d9d9d9"/>
+            <circle data-name="bullet" cx="1.5" cy="1.5" r="1.5" transform="translate(0 41)" style="fill:#d9d9d9"/>
+        </g>
+        <g data-name="그룹 626085" transform="translate(138 171)">
+            <text data-name="직계친족 형제자매 고용주" transform="translate(7 11)" style="font-family:AppleSDGothicNeo-Regular,Apple SD Gothic Neo;font-size:12px"><tspan x="0" y="0">직계친족</tspan><tspan x="0" y="18">형제자매</tspan><tspan x="0" y="36">고용주</tspan></text>
+            <circle data-name="bullet" cx="1.5" cy="1.5" r="1.5" transform="translate(0 5)" style="fill:#d9d9d9"/>
+            <circle data-name="bullet" cx="1.5" cy="1.5" r="1.5" transform="translate(0 23)" style="fill:#d9d9d9"/>
+            <circle data-name="bullet" cx="1.5" cy="1.5" r="1.5" transform="translate(0 41)" style="fill:#d9d9d9"/>
+        </g>
+    </g>
+    <g>
+        <g style="filter:url(#3z30ojfjmc)">
+            <rect data-name="area" width="181" height="91" rx="8" transform="translate(26 311)" style="fill:#e7f8f4"/>
+        </g>
+        <g data-name="그룹 626077">
+            <text data-name="법원" transform="translate(117 384)" style="font-family:AppleSDGothicNeo-Bold,Apple SD Gothic Neo;font-weight:700;font-size:14px"><tspan x="-12.11" y="0">법원</tspan></text>
+            <g data-name="그룹 626091" transform="translate(-3872 -3573.531)">
+                <path data-name="합치기 12" d="M6 33V12H3a1 1 0 0 1-1-1V9c0-.553.514-.7 1-1l14.8-7L33 8c.648.344 1 .447 1 1v2a1 1 0 0 1-1 1h-3v21z" transform="translate(3971 3899.531)" style="fill:#00c8d0"/>
+                <g data-name="그룹 626099">
+                    <path data-name="사각형 460969" transform="translate(3981 3914.531)" style="fill:#e7f8f4" d="M0 0h3v12H0z"/>
+                    <path data-name="사각형 460969" transform="translate(3987.5 3914.531)" style="fill:#e7f8f4" d="M0 0h3v12H0z"/>
+                    <path data-name="사각형 460969" transform="translate(3994 3914.531)" style="fill:#e7f8f4" d="M0 0h3v12H0z"/>
+                </g>
+                <circle data-name="타원 554" cx="3" cy="3" r="3" transform="translate(3986 3904.531)" style="opacity:.2"/>
+                <rect data-name="사각형 460970" width="32" height="4" rx="1" transform="translate(3973 3928.531)" style="fill:#00a0a7"/>
+            </g>
+        </g>
+    </g>
+    <g data-name="그룹 626090">
+        <g data-name="중앙 줄">
+            <g data-name="line">
+                <path data-name="&gt;" d="m0 11 8-5V5L0 0z" transform="rotate(-90 172.5 81.5)" style="fill:#c3c3c7"/>
+                <path data-name="&gt;" d="m0 0 8 5v1l-8 5z" transform="rotate(90 -119 180)" style="fill:#43495a"/>
+            </g>
+            <g data-name="그룹 626081">
+                <g data-name="그룹 626087">
+                    <path data-name="line" transform="rotate(-90 181 126)" style="fill:#43495a" d="M0 0h65v1H0z"/>
+                    <path data-name="line" transform="rotate(-90 203.5 107.5)" style="fill:#c3c3c7" d="M0 0h65v1H0z"/>
+                    <path data-name="line" transform="rotate(-90 222 85)" style="fill:#c3c3c7" d="M0 0h65v1H0z"/>
+                    <path data-name="line" transform="rotate(-90 244.5 66.5)" style="fill:#c3c3c7" d="M0 0h65v1H0z"/>
+                    <text transform="translate(3 281)" style="fill:#43495a;font-family:AppleSDGothicNeo-Regular,Apple SD Gothic Neo;font-size:14px"><tspan x="0" y="0">START</tspan></text>
+                </g>
+            </g>
+        </g>
+        <g data-name="중앙 줄">
+            <g data-name="line">
+                <path data-name="&gt;" d="m0 11 8-5V5L0 0z" transform="rotate(-90 213.5 40.5)" style="fill:#c3c3c7"/>
+                <path data-name="&gt;" d="m0 0 8 5v1l-8 5z" transform="rotate(90 -78 221)" style="fill:#c3c3c7"/>
+            </g>
+            <g data-name="no_set">
+                <g data-name="no" transform="translate(127 266)">
+                    <circle data-name="타원 551" cx="10.5" cy="10.5" r="10.5" style="fill:#999fa7"/>
+                    <text data-name="5" transform="translate(11 16)" style="font-weight:700;font-family:Lato-Bold,Lato;font-size:14px;fill:#fff"><tspan x="-4.06" y="0">5</tspan></text>
+                </g>
+                <g data-name="no" transform="translate(168 266)">
+                    <circle data-name="타원 551" cx="10.5" cy="10.5" r="10.5" style="fill:#999fa7"/>
+                    <text data-name="6" transform="translate(11 16)" style="font-weight:700;font-family:Lato-Bold,Lato;font-size:14px;fill:#fff"><tspan x="-4.06" y="0">6</tspan></text>
+                </g>
+                <g data-name="no" transform="translate(45 266)">
+                    <circle data-name="타원 551" cx="10.5" cy="10.5" r="10.5" style="fill:#999fa7"/>
+                    <text data-name="1" transform="translate(11 16)" style="font-weight:700;font-family:Lato-Bold,Lato;font-size:14px;fill:#fff"><tspan x="-4.06" y="0">1</tspan></text>
+                </g>
+                <g data-name="no" transform="translate(86 266)">
+                    <circle data-name="타원 551" cx="10.5" cy="10.5" r="10.5" style="fill:#999fa7"/>
+                    <text data-name="2" transform="translate(11 16)" style="font-weight:700;font-family:Lato-Bold,Lato;font-size:14px;fill:#fff"><tspan x="-4.06" y="0">2</tspan></text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

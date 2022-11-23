@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
+    <g data-name="그룹 626006" transform="translate(-30.999 -243)">
+        <rect data-name="사각형 460847" width="13.999" height="12" rx="3" transform="translate(32.999 246)" style="fill:#ccd5fa"/>
+        <g data-name="그룹 626028">
+            <g data-name="사각형 460854" transform="translate(36.499 245)" style="stroke:#727ba2;fill:#fff">
+                <rect width="1.5" height="3" rx=".75" style="stroke:none"/>
+                <rect x=".5" y=".5" width=".5" height="2" rx=".25" style="fill:none"/>
+            </g>
+            <g data-name="사각형 460855" transform="translate(41.999 245)" style="stroke:#727ba2;fill:#fff">
+                <rect width="1.5" height="3" rx=".75" style="stroke:none"/>
+                <rect x=".5" y=".5" width=".5" height="2" rx=".25" style="fill:none"/>
+            </g>
+        </g>
+    </g>
+    <g data-name="그룹 626009" transform="translate(-41 -222)">
+        <circle data-name="타원 530" cx="1" cy="1" r="1" transform="translate(45.5 231)" style="fill:#fff"/>
+        <circle data-name="타원 531" cx="1" cy="1" r="1" transform="translate(49 231)" style="fill:#fff"/>
+        <circle data-name="타원 532" cx="1" cy="1" r="1" transform="translate(52.5 231)" style="fill:#fff"/>
+    </g>
+</svg>

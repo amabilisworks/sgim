@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g data-name="그룹 626049">
+        <path data-name="패스 2493" d="M0 .124a29.758 29.758 0 0 1 7.887-2.1c1.817 0 7.642 1.723 7.887 2.1s-.008 9.823 0 9.871c-.5 3.282-6 6.034-7.887 6.034S.219 12.776 0 9.995C-.073 9.987-.22.462 0 .124z" transform="translate(4.115 4.972)" style="fill:#7041e5"/>
+        <path data-name="area" transform="translate(8 8)" style="opacity:.3;fill:none" d="M0 0h8v8H0z"/>
+        <path data-name="선 2" transform="rotate(45 -3.541 22.305)" style="stroke:#fff;stroke-linecap:round;stroke-width:1.5px;fill:none" d="M0 0v7.736"/>
+        <path data-name="선 3" transform="rotate(135 4.363 10.305)" style="stroke:#fff;stroke-linecap:round;stroke-width:1.5px;fill:none" d="M0 0v7.736"/>
+    </g>
+</svg>

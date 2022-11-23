@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g data-name="타원 1" transform="translate(8 13.001)" style="stroke:#fff;stroke-width:2px;fill:none">
+        <circle cx="4" cy="4" r="4" style="stroke:none"/>
+        <circle cx="4" cy="4" r="3" style="fill:none"/>
+    </g>
+    <g data-name="합치기 1" style="fill:none">
+        <path d="M1 15a1.038 1.038 0 0 1-1-1.072l1-2.142v-4.7a7.083 7.083 0 1 1 14.166 0v5.06L16 13.928A1.037 1.037 0 0 1 15 15z" style="stroke:none" transform="translate(4 3.001)"/>
+        <path d="m13.359 13-.193-.413V7.083A5.089 5.089 0 0 0 8.083 2 5.089 5.089 0 0 0 3 7.083v5.147l-.36.77H13.36m1.64 2H1C.45 15 0 14.52 0 13.928l1-2.142V7.083a7.084 7.084 0 0 1 14.166 0v5.06l.833 1.785c0 .593-.447 1.072-1 1.072z" style="fill:#fff;stroke:none" transform="translate(4 3.001)"/>
+    </g>
+    <path data-name="사각형 211" transform="translate(7.903 11.001)" style="fill:#2b6ff0" d="M0 0h8v5H0z"/>
+</svg>

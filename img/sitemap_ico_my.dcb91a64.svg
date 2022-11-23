@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <g transform="translate(-20 -126)">
+        <circle data-name="타원 181" cx="4" cy="4" r="4" transform="translate(28 129.5)" style="fill:#3968c4"/>
+        <ellipse data-name="타원 182" cx="8" cy="4" rx="8" ry="4" transform="translate(24 139)" style="fill:#5891ed"/>
+        <path data-name="사각형 459176" d="M2 0h12a2 2 0 0 1 2 2v3a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V2a2 2 0 0 1 2-2z" transform="translate(24 141)" style="fill:#5891ed"/>
+    </g>
+</svg>

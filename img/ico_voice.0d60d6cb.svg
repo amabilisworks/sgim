@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,191,191,0.5);
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #1c53b7;
+      }
+
+      .cls-3, .cls-6 {
+        fill: none;
+      }
+
+      .cls-3 {
+        stroke: #1c53b7;
+        stroke-width: 2px;
+      }
+
+      .cls-4 {
+        fill: #3080f3;
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="ico_voice" transform="translate(-40 -1487)">
+    <rect id="area" class="cls-1" width="32" height="32" transform="translate(40 1487)"/>
+    <g id="그룹_1448" data-name="그룹 1448" transform="translate(12.643 1106)">
+      <g id="그룹_1448-2" data-name="그룹 1448" transform="translate(30.358 386)">
+        <path id="패스_2509" data-name="패스 2509" class="cls-2" d="M1.344-2H4.033V6.065H1.344A1.344,1.344,0,0,1,0,4.721V-.656A1.344,1.344,0,0,1,1.344-2Z" transform="translate(0 8.995)"/>
+        <g id="사각형_1121" data-name="사각형 1121" class="cls-3" transform="translate(7.483 12.371)">
+          <rect class="cls-5" width="9.409" height="9.409" rx="2"/>
+          <rect class="cls-6" x="1" y="1" width="7.409" height="7.409" rx="1"/>
+        </g>
+        <path id="패스_2510" data-name="패스 2510" class="cls-4" d="M-.057,6.776,19.65,0c.984,0,1.782.6,1.782,1.344V20.163c0,.742-.8,1.344-1.782,1.344L-.057,14.745Z" transform="translate(4.089 0.274)"/>
+        <rect id="사각형_1123" data-name="사각형 1123" class="cls-4" width="3" height="22" rx="1.5" transform="translate(23)"/>
+      </g>
+    </g>
+  </g>
+</svg>

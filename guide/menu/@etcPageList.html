@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html lang="ko" class="ie ie7"><![endif]-->
+<!--[if IE 8]><html lang="ko" class="ie ie8"><![endif]-->
+<!--[if IE 9]><html lang="ko" class="ie ie9"><![endif]-->
+<!--[if !IE]><!--><html lang="ko"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon_240.png">
+	
+	<link rel="stylesheet" type="text/css" href="../inc/css/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="../inc/css/guide.css">
+	<link rel="stylesheet" type="text/css" href="../inc/css/wg.reset.css">
+	
+	<script type="text/javascript" src="../inc/js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="../inc/js/jquery.tablehover.min.js"></script>
+	<script type="text/javascript" src="../inc/js/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript" src="../inc/js/guide.js"></script>
+	<script type="text/javascript" src="../inc/js/etc_data_menu.js"></script>
+</head>
+
+<body class="wg">
+	<!-- header (s) -->
+	<script type="text/javascript">wgGnbInit();</script>
+	<!-- header (e) //-->
+
+	<div class="wgContainer">
+		<!-- Left Navigation (s) -->
+		<script type="text/javascript">pageListAnalysis();</script>
+		<!-- Left Navigation (e) //-->
+		
+		<div class="wgContent">
+			<div class="wgTop">
+				<h3></h3>
+			</div>
+			<div class="wgCont">
+				<div class="wgRow">
+					<div class="status wgProg">
+						<strong class="wgTit">진행상태안내</strong>
+						<span>
+							<span class="wgProgTip" id="progNum">
+								<button type="button" class="wgProgTxt">진척률<i class="fas fa-info-circle"></i></button>
+								<div class="inner" style="width:330px; margin-left:-165px;">
+									
+								</div>
+							</span>
+							<span class="wgProgTip">
+								<button type="button" class="wgProgTxt">완료/수정날짜<i class="fas fa-info-circle"></i></button>
+								<div class="inner">
+									<p class="bold">완료날짜</p>
+									<ul class="wgDesc">
+										<li>작업중 : <span class="wgBadge ok ing">초록색</span></li>
+										<li>퍼블리싱 1차 완료일 : <span class="wgBadge ok">회색</span></li>
+										<li>퍼블리싱 최종 완료일 : <span class="wgBadge ok finish">검은색</span></li>
+									</ul>
+									<p class="bold">수정날짜</p>
+									<ul class="wgDesc">
+										<li>마지막 업데이트/수정 완료일 : <span class="wgBadge mod">파란색</span></li>
+									</ul>
+								</div>
+							</span>
+						</span>
+					</div>
+					<div class="wgBtns">
+						<span class="wgSelect" id="cateSel">
+							<select title="카테고리 선택">
+							</select>
+							<i class="fas fa-chevron-down"></i>
+						</span>
+						<span class="wgSelect">
+							<select title="파트 선택" id="partSel">
+								<option value="null" selected="selected">전체</option>
+								<option value="p">기획(요청/협의)</option>
+								<option value="d">디자인(요청/협의)</option>
+								<option value="u">퍼블리싱(가이드 추가)</option>
+								<option value="c">컨펌요청(담당기획자)</option>
+								<option value="finish">완료(개발진행가능)</option>
+							</select>
+							<i class="fas fa-chevron-down"></i>
+						</span>
+						<a href="#" onclick="copyToClipboardTotalTable();return false;" class="wgBtn copy" title="복사 후 Excel에 붙여넣기 가능"><i class="fas fa-copy">복사</i></a>
+					</div>
+				</div>
+				<table class="wgTbl">
+					<colgroup>
+						<col width="50px">
+						<col width="10%">
+						<col width="12%">
+						<col width="12%">
+						<col width="14%">
+						<col width="60px">
+						<col width="72px">
+						<col width="72px">
+						<col width="110">
+						<col width="*">
+						<col width="48px">
+					</colgroup>
+					<thead>
+						<tr>
+							<th scope="col" class="first">No</th>
+							<th scope="col">2Depth</th>
+							<th scope="col">3Depth</th>
+							<th scope="col">4Depth</th>
+							<th scope="col">5Depth</th>
+							<th scope="col" id="notCHK">CHECK</th>
+							<th scope="col" id="notWork">완료날짜</th>
+							<th scope="col">수정날짜</th>
+							<th scope="col">ID</th>
+							<th scope="col">비고</th>
+							<th scope="col">LINK</th>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript">
+//title ID 보이게
+function menuIDTitleInit(){
+	$('.wgLnb .nav > ul .depth a').each(function(){
+		var hrefTxt = $(this).attr('href');
+		var start = hrefTxt.indexOf('&page=') + 6;
+		var resultTxt = hrefTxt.substr(start);
+		var titleTxt = '/html_'+ resultTxt.substr(0,2).toLowerCase() + '/'+ resultTxt.substr(3).toLowerCase();
+		$(this).attr( 'title', titleTxt );
+	})
+}
+function toggleSB(target){
+	$(target).toggleClass('on');
+	$('table.wgTbl').toggleClass('sbEnabled');
+}
+
+</script>
+</html>

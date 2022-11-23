@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,191,191,0.5);
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #6375ea;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="ico_relay" transform="translate(-40 -1483)">
+    <rect id="area" class="cls-1" width="32" height="32" transform="translate(40 1483)"/>
+    <g id="그룹_1486" data-name="그룹 1486" transform="translate(0 -2)">
+      <g id="말풍선" transform="translate(-0.279 1.352)">
+        <path id="사각형_459204" data-name="사각형 459204" class="cls-2" d="M11.5,0h3A11.5,11.5,0,0,1,26,11.5v0A11.5,11.5,0,0,1,14.5,23H1.533A1.533,1.533,0,0,1,0,21.467V11.5A11.5,11.5,0,0,1,11.5,0Z" transform="translate(43.279 1488.647)"/>
+        <g id="그룹_1484" data-name="그룹 1484" transform="translate(48.217 1498.804)">
+          <g id="그룹_1485" data-name="그룹 1485" transform="translate(0 0)">
+            <circle id="타원_184" data-name="타원 184" class="cls-3" cx="2" cy="2" r="2" transform="translate(0.063 -0.156)"/>
+            <circle id="타원_185" data-name="타원 185" class="cls-3" cx="2" cy="2" r="2" transform="translate(6.063 -0.156)"/>
+            <circle id="타원_186" data-name="타원 186" class="cls-3" cx="2" cy="2" r="2" transform="translate(12.063 -0.156)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

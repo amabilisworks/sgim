@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="45.255" height="40" viewBox="0 0 45.255 40">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,191,191,0.5);
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #db699c;
+      }
+
+      .cls-3 {
+        fill: #cb4c7e;
+      }
+    </style>
+  </defs>
+  <g id="ico_하트" transform="translate(-37.373 -1473)">
+    <rect id="area" class="cls-1" width="40" height="40" transform="translate(40.373 1473)"/>
+    <g id="그룹_1480" data-name="그룹 1480" transform="translate(0 -13)">
+      <path id="사각형_459202" data-name="사각형 459202" class="cls-2" d="M10,0h0A10,10,0,0,1,20,10V31.333a.667.667,0,0,1-.667.667H.667A.667.667,0,0,1,0,31.333V10A10,10,0,0,1,10,0Z" transform="translate(68.485 1486.23) rotate(45)"/>
+      <path id="사각형_459203" data-name="사각형 459203" class="cls-3" d="M10,0h0A10,10,0,0,1,20,10V31.333a.667.667,0,0,1-.667.667H.667A.667.667,0,0,1,0,31.333V10A10,10,0,0,1,10,0Z" transform="translate(37.373 1500.373) rotate(-45)"/>
+    </g>
+  </g>
+</svg>

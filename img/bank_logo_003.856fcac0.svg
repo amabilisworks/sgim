@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="mask" width="40" height="40" transform="translate(302 254)" fill="red"/>
+    </clipPath>
+  </defs>
+  <g id="bank_logo_003" transform="translate(-302 -254)">
+    <g id="maskarea" clip-path="url(#clip-path)">
+      <circle id="area" cx="20" cy="20" r="20" transform="translate(302 254)" fill="#004593"/>
+      <g id="shape" transform="translate(133.583 -14.136)">
+        <g id="Group_98" data-name="Group 98" transform="translate(177.417 277.136)">
+          <g id="Group_97" data-name="Group 97">
+            <path id="Path_23" data-name="Path 23" d="M182.944,277.411a2.55,2.55,0,0,0-1.289,1.484l-4.105,12.343a2.564,2.564,0,0,0,1.623,3.245L192.638,299a2.57,2.57,0,0,0,3.251-1.625L200,285.038a2.573,2.573,0,0,0-1.628-3.248L184.9,277.267a2.552,2.552,0,0,0-1.961.144" transform="translate(-177.417 -277.136)" fill="#fff"/>
+            <path id="Path_24" data-name="Path 24" d="M190.537,290.305a7.029,7.029,0,0,1-2.7,1.883l-.612.236V286.7l.6.233a7.062,7.062,0,0,1,2.709,1.876,6.189,6.189,0,0,0-3-9.012l-1.943-.652a1.666,1.666,0,0,0-2.1,1.068l-4.12,12.35a1.689,1.689,0,0,0,1.08,2.121l9.346,3.121a6.191,6.191,0,0,0,.736-7.506m-5.407,2.471H184.2v-6.411h.926Z" transform="translate(-178.429 -278.177)" fill="#008ad3"/>
+            <path id="Path_25" data-name="Path 25" d="M200.345,300.105a6.144,6.144,0,0,0-1.881-1.5v3.012a6.153,6.153,0,0,0,1.881-1.513" transform="translate(-188.777 -288.724)" fill="#ec4315"/>
+            <path id="Path_26" data-name="Path 26" d="M212.235,285.679l-8.577-2.867a7.064,7.064,0,0,1,.622,8.768,7.067,7.067,0,0,1-.408,8.559l3.222,1.076a1.655,1.655,0,0,0,2.1-1.068l4.123-12.346a1.69,1.69,0,0,0-1.081-2.122m-2.273,9.1-1.157,0-2.383-3.208,2.419-3.2,1.17,0-2.427,3.215Z" transform="translate(-191.58 -280.2)" fill="#004593"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

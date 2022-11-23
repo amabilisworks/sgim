@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="12" style="fill:#f8fafb"/>
+    <g data-name="아이콘 / 닫기">
+        <path data-name="Combined Shape" d="M3.2 3.2 0 6.4l3.2-3.2L0 0l3.2 3.2L6.4 0 3.2 3.2l3.2 3.2z" transform="translate(8.8 8.8)" style="stroke:#999;stroke-miterlimit:10;fill:none"/>
+    </g>
+</svg>

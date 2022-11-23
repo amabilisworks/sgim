@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html lang="ko" class="ie ie7"><![endif]-->
+<!--[if IE 8]><html lang="ko" class="ie ie8"><![endif]-->
+<!--[if IE 9]><html lang="ko" class="ie ie9"><![endif]-->
+<!--[if !IE]><!--><html lang="ko"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no">
+	
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon_240.png">
+	
+	<link rel="stylesheet" type="text/css" href="../inc/css/fontawesome/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="../inc/css/guide.css">
+	<link rel="stylesheet" type="text/css" href="../inc/css/wg.reset.css">
+	
+	<script type="text/javascript" src="../inc/js/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="../inc/js/jquery.slimscroll.min.js"></script>
+	<script type="text/javascript" src="../inc/js/guide.js"></script>
+	<script type="text/javascript" src="../inc/js/data_menu.js"></script>
+</head>
+<body class="wg">
+	<!-- header (s) -->
+	<script type="text/javascript">wgGnbInit(1);</script>
+	<!-- header (e) //-->
+
+	<div class="wgContainer">
+		<!-- Left Navigation (s) -->
+		<script type="text/javascript">guideRule();</script>
+		<!-- Left Navigation (e) //-->
+		
+		<div class="wgContent">
+			<div class="wgTop">
+				<h3></h3>
+			</div>
+			
+			<div class="wgCont"><!-- likeSubpage -->
+				<!-- 여기서부터 내용 s -->
+				
+				
+				
+				<!---------------------- Dev guide ----------------------->
+				<p class="wgTit">1. radio, checkbox id 값 수정시 반드시 label의 for 속성도 수정해주셔야 합니다.</p>
+				<div class="section round">
+					<p class="wgTitSub">예시</p>
+					<p class="wgDesc bold">원본 코드</p>
+					<p class="wgDesc bg mt5">
+						&lt;input type="radio" class="ipt" name="rdoGroup_1" <strong class="wgC1 bold">id="rdo0"</strong>&gt;&lt;label <strong class="wgC1 bold">for="rdo0"</strong>>전체&lt;/label&gt;
+					</p>
+					<p class="wgDesc mt5">여기에 <strong>rdo_0</strong>을 의미있는 ID로 부여하기 위해 allSelect로 변경 한다면...</p>
+					<p class="wgDesc bold mt15">수정된 코드</p>
+					<p class="wgDesc bg mt5"> 
+						&lt;input type="radio" class="ipt" name="rdoGroup_1" <strong class="wgC2 bold">id="allSelect"</strong>&gt; &lt;label <strong class="wgC2 bold">for="allSelect"</strong>>전체&lt;/label&gt;
+					</p>
+					<p class="wgDesc mt5 wgC2 bold large">input의 ID 와 label의 for는 무조건 값이 같아야  합니다.</p>
+				</div><!-- Dev guide -->
+				
+				<!---------------------- Dev guide ----------------------->
+				<p class="wgTit">2. 퍼블리싱 코드를 가져가실땐 무조건 파일로 가져가 주세요.</p>
+				<div class="section round">
+					<p class="wgTitSub">잘못된 예시</p>
+					<div class="imgFrame inB"><img alt="" src="../img/img_dev_0.png"></div>
+					<p class="wgDesc mt10 large">Chrome의 DevTools이나 익스플로러의 개발자 도구에서 나오는 코드들은 퍼블리싱 스크립트가 입혀진 코드이므로<br>
+					 이것을 Copy해서 사용하시면 <span class="bold wgC2">화면 깨짐 &amp; 기능 오작동의 원인</span>이 됩니다.<br>
+					Chrome에서 페이지 소스보기(Ctrl+U)는 괜찮습니다.
+					</p>
+				</div><!-- Dev guide -->
+				
+				<!---------------------- Dev guide ----------------------->
+				<p class="wgTit">3. 퍼블리싱 쪽 함수 호출</p>
+				<div class="section round">
+					<p class="wgDesc large">
+						개발쪽에서 화면을 그린 이후에(비동기식 컨텐츠 제외) 퍼블리싱 함수 호출 해주셔야 합니다.<br>
+						$(document).ready 시점에 <strong class="wgC2 bold">layout.init();</strong>를 반드시 실행해주세요.
+						<strong class="wgC2 bold">실행 주체 : 공통개발팀 최초 1회</strong>
+					</p>
+				</div><!-- Dev guide -->
+				
+				<!---------------------- Dev guide ----------------------->
+				<p class="wgTit">4. 특정 기능이 동작을 안한다면</p>
+				<div class="section round">
+					<p class="wgDesc large">
+						아코디언메뉴, 데이트 피커, 인풋의 delete버튼 생성등 퍼블리싱 팀에서 제작한 컴포넌트가 동작을 안한다면<br>
+						<strong class="wgC2 bold">ui.init();</strong> 함수를 실행해주세요.<br>
+						ajax방식으로 컨텐츠가 뿌려질때 이런일이 발생할수 있는데 이럴때는 전부 뿌려져서 element가 존재할때 함수를 실행해 주시면 됩니다.<br>
+						uiAct class를 인식해서 동작하기 때문에<br>
+					</p>
+					<strong class="wgC2 bold">개별 페이지 개발자가 오동작 할 경우 실행 (화면이 동적으로 바뀌면 무조건 실행)</strong>
+				</div><!-- Dev guide -->
+				
+				<!---------------------- Dev guide ----------------------->
+				<p class="wgTit">5. uiAct 클래스가 자꾸 생기는데...?</p>
+				<div class="section round">
+					<p class="wgDesc large">
+						<strong class="wgC2 bold">ui.init();</strong>가 실행되면 ui component에 맞게 스크립트가 실행되고<br>
+						uiAct 클래스가 해당 element에 박히면 이것은 스크립트가 처리되어 정상 작동한다는 뜻이기도 합니다.<br>
+						그래서 jsp파일에는 절대 uiAct라는 class로 하드코딩해서 사용해선 안됩니다. 
+					</p>
+				</div><!-- Dev guide -->
+				
+				<!---------------------- Dev guide ----------------------->
+				<p class="wgTit">6. 테이블, 리스트등 반복문을 사용하실때 하실때 유의하실 점</p>
+				<div class="section round">
+					<div class="wgDesc bg">
+						<xmp>
+<tbody>
+	<tr id="이녀석을 반복하고 싶을때">
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</tbody>
+						</xmp>
+</div>
+						<p class="wgDesc large">
+							실제로 테이블을 jsp상에 올려놓고 tr을 지정해서 반복문을 사용 하신다면 <br>
+							<strong class="wgC2">tr의 구조를 변수에 담으시고 tbody에는 존재하지 않게 remove 시켜주세요.<br></strong>
+							나중에 화면 깨짐의 잠재적 원인이 될수 있습니다.
+						</p>
+					</p>
+				</div><!-- Dev guide -->
+				
+				<!---------------------- Dev guide ----------------------->
+				<p class="wgTit">7. a 태그의 href속성은 남겨주셔야 합니다.</p>
+				<div class="section round">
+					<p class="wgDesc large">눌렀을때 화면 튐현상 때문에 속성값 자체를 날리시는 분이 간혹 계신데 이는 접근성에 어긋나며 키보드 탭키로 접근이 되지 않습니다.</p>
+<xmp class="wgDesc bg"><a href="#">버튼</a>
+<script type="text/javascript">
+$('button').on('click',function(e){
+	e.preventDefault();
+	실행할 명령어
+});
+</script>
+</xmp>
+
+<p class="wgDesc large wgC2">preventDefault(); 로 처리부탁드립니다.</p>
+				</div><!-- Dev guide -->
+				
+				<!---------------------- Dev guide ----------------------->
+				<p class="wgTit">8. radio, checkbox 에 click, onclick 이벤트는 사용하시면 안됩니다.</p>
+				<div class="section round">
+					<p class="wgDesc large">위 속성들은 키보드로만 값을 바꿀수 있기 때문에 click 이벤트를 사용하시면 키보드 동작시 이벤트가 발생하지 않습니다.</p>
+					<p class="wgDesc large">
+						따라서 반드시 <strong class="wgC2">change 이벤트</strong>로 처리해주시고 checked 된 값을 체크해서 작업해주시길 바랍니다.<br>
+					</p>
+				</div><!-- Dev guide -->
+				
+				<!---------------------- Dev guide ----------------------->
+				<p class="wgTit">9. 레이어 팝업, 알럿 등</p>
+				<div class="section round">
+					레이어 팝업을 열때는<strong class="wgC2">lp.open()</strong>으로 실행해주시고, 닫을때도 <strong class="wgC2">lp.close()</strong>로 닫아주시기 바랍니다.<br>
+					웹접근성 관련해 최적화 되어 동작하고 있습니다. 반드시 위 함수로 호출 부탁드립니다.<br>
+					사용 방법은 <a href="../../html_cdh/ajax/popup_guide.html" target="_blank" class="underline">팝업 가이드 페이지</a> 에서 확인 하실수 있습니다.
+				</div><!-- Dev guide -->
+				
+				<!---------------------- Dev guide ----------------------->
+				<p class="wgTit">10.include 되지 않고 페이지별 jsp에 들어가야 하는 영역</p>
+				<div class="section round">
+				<p class="wgDesc large">아래 부분은 공통에서 include되는 형태가 아니라 개별 jsp 페이지에 들어가는 것을 권장합니다.<br>
+				이유는 페이지별로 data속성이나 class를 추가해서 컨트롤하기 용이함 때문입니다.</p>
+				<div class="wgDesc bg">
+						<xmp><section id="content"></xmp>
+				</div><!-- Dev guide -->
+				
+				
+				<!-- 여기서부터 내용 e -->
+			</div>
+		</div>
+	</div>
+</body>
+</html>

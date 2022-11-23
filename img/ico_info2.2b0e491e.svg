@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <clipPath id="u2j1ah5h0a">
+            <path data-name="사각형 460723" transform="translate(.284 -.497)" style="fill:none" d="M0 0h26v26H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 625706">
+        <g data-name="그룹 625705" transform="translate(2.716 3.497)" style="clip-path:url(#u2j1ah5h0a)">
+            <path data-name="패스 2204" d="M18.94 5.47A5.47 5.47 0 1 1 13.47 0a5.47 5.47 0 0 1 5.47 5.47" transform="translate(-1.749)" style="fill:#479df0"/>
+            <path data-name="패스 2205" d="M11.749 15.5C5.729 15.5.76 19.654.011 25.03a1.315 1.315 0 0 0 1.38 1.41h20.354a1.614 1.614 0 0 0 1.674-1.827c-.942-5.172-5.808-9.113-11.671-9.113" transform="translate(0 -3.388)" style="fill:#479df0"/>
+            <path data-name="패스 2603" d="M12.5 9.11c0 3.63-4.689 6.518-6.251 6.518S0 12.741 0 9.11V3.583a1.488 1.488 0 0 1 .877-1.372L5.7.114a1.371 1.371 0 0 1 1.1 0l4.827 2.1a1.487 1.487 0 0 1 .873 1.369z" transform="translate(13.284 9.377)" style="fill:#f5bf41"/>
+            <path data-name="패스 2604" d="m12 8.25 2.051 1.875L17.47 7" transform="translate(4.801 9.019)" style="stroke:#fff;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px;fill:none"/>
+        </g>
+    </g>
+</svg>

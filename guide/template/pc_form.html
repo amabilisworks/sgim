@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="Shortcut Icon" href="img/favicon_240.png">
+</head>
+
+<body>
+
+<div class="likeSubpage">
+<style>
+	.tabWrap .iptGroup[class*=Tab] {max-width:100%;}
+</style>
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='기본 input' data-voice="">
+<input type="text" class="ipt" title="타이틀">
+<input type="text" class="ipt" title="타이틀" value="값">
+<input type="text" class="ipt" readonly="readonly" value="readonly">
+<input type="text" class="ipt" disabled="disabled" value="disabled">
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='단위 - 뒤' data-desc='data-unit 속성 추가'>
+<input type="tel" class="ipt" title="금액" data-unit="만원">
+<input type="tel" class="ipt" title="금액" data-unit="만원" readonly="readonly" value="1,000,000">
+<input type="tel" class="ipt" title="금액" data-unit="만원" disabled="disabled" value="1,000,000">
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='단위 - 앞' data-desc='front class 추가'>
+<input type="tel" class="ipt front" title="금액" data-unit="$">
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='보안키보드' data-voice="">
+<div class="keypad">
+	<input type="password" class="ipt" maxlength="6" title="보안키보드">
+	<button type="button" class="icoBtn_keypad"><span>보안키보드</span></button>
+</div>
+<div class="keypad">
+	<input type="password" class="ipt" maxlength="6" title="보안키보드" readonly="readonly" value="123456">
+	<button type="button" class="icoBtn_keypad"><span>보안키보드</span></button>
+</div>
+<div class="keypad">
+	<input type="password" class="ipt" maxlength="6" title="보안키보드" disabled="disabled" value="123456">
+	<button type="button" class="icoBtn_keypad"><span>보안키보드</span></button>
+</div>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='카드 비밀번호 앞 2자리' data-voice="">
+<div class="keypad">
+	<input type="password" class="ipt" maxlength="2" title="카드 비밀번호 앞 2자리">
+	<button type="button" class="icoBtn_keypad"><span>보안키보드</span></button>
+</div>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='주민등록번호 + 보안키보드' data-voice="">
+<div class="setHalf">
+	<input type="tel" class="ipt" maxlength="6" title="주민등록번호 앞 생년월일 6자리">
+	<span class="sign">-</span>
+	<div class="keypad">
+		<input type="password" class="ipt" maxlength="7" title="주민등록번호 뒤 7자리">
+		<button type="button" class="icoBtn_keypad"><span>보안키보드</span></button>
+	</div>
+</div>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='주민등록번호 + 뒤 1자리' data-voice="">
+<div class="setHalf">
+	<input type="tel" class="ipt" maxlength="6" title="주민등록번호 앞 생년월일 6자리">
+	<span class="sign">-</span>
+	<div class="keypad">
+		<input type="password" class="ipt" maxlength="1" title="주민등록번호 뒤 첫 1자리">
+		<button type="button" class="icoBtn_keypad"><span>보안키보드</span></button>
+	</div>
+</div>
+
+<div class="setHalf">
+	<input type="tel" class="ipt" maxlength="6" title="주민등록번호 앞 생년월일 6자리">
+	<span class="sign">-</span>
+	<div class="keypad letter1">
+		<input type="tel" class="ipt" maxlength="1" title="주민등록번호 뒤 첫 1자리">
+	</div>
+</div>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='전화 번호' data-voice="">
+<div class="setPhone">
+	<select class="ipt" title="전화번호 앞 3자리">
+		<option>02</option>
+		<option>070</option>
+	</select>
+	<input type="tel" class="ipt" maxlength="4" title="전화번호 중간 4자리">
+	<span class="sign">-</span>
+	<input type="tel" class="ipt" maxlength="4" title="전화번호 뒤 4자리">
+</div>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='휴대폰 번호' data-voice="">
+<div class="setPhone">
+	<select class="ipt" title="휴대폰 앞 3자리">
+		<option>010</option>
+		<option>011</option>
+	</select>
+	<input type="tel" class="ipt" maxlength="4" title="휴대폰 중간 4자리">
+	<span class="sign">-</span>
+	<input type="tel" class="ipt" maxlength="4" title="휴대폰 뒤 4자리">
+</div>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='통신사 + 휴대폰번호' data-voice="">
+<select class="ipt min" title="통신사">
+	<option>통신사</option>
+	<option>SK</option>
+	<option>KT</option>
+	<option>LGU+</option>
+	<option>알뜰폰 SK</option>
+	<option>알뜰폰 KT</option>
+	<option>알뜰폰 LGU+</option>
+</select>
+<div class="setPhone">
+	<select class="ipt" title="휴대폰 앞 3자리">
+		<option>010</option>
+		<option>011</option>
+	</select>
+	<input type="tel" class="ipt" maxlength="4" title="휴대폰 중간 4자리">
+	<span class="sign">-</span>
+	<input type="tel" class="ipt" maxlength="4" title="휴대폰 뒤 4자리">
+</div>
+<button type="button" class="btn_t m"><span>인증번호 요청</span></button>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='일간 달력' data-voice="">
+<input type="tel" class="ipt date">
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='기간 설정' data-voice="">
+<div class="setHalf">
+	<input type="tel" class="ipt date">
+	<span class="sign">~</span>
+	<input type="tel" class="ipt date">
+</div>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='월간 달력' data-voice="">
+<input type="tel" class="ipt month" title="월간 달력">
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='이메일' data-desc='type="email"'>
+<input type="email" class="ipt" title="이메일" placeholder="예) abcde@shinhanlife.co.kr">
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section notReplace" data-title='검색' data-desc=''>
+<div class="srchBar">
+	<input type="text" class="ipt">
+	<button type="button" class="icoBtn_srch"><span>검색</span></button>
+</div>
+<!-- <button type="button" class="links">주소검색</button>
+<br>
+<input type="text" class="ipt srch">
+<button type="button" class="btn_p m"><span>검색</span></button> -->
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section notReplace" data-title='금액' data-voice="">
+<div class="">
+	<input type="tel" class="ipt" value="" data-unit="만원">
+	<div class="btnGroup">
+		<button type="button" class="btn_t m"><span>최대금액 2,000만원</span></button>
+		<button type="button" class="btn_t m"><span>1,000만원</span></button>
+		<button type="button" class="btn_t m"><span>500만원</span></button>
+		<button type="button" class="btn_t m"><span>300만원</span></button>
+		<button type="button" class="btn_t m"><span>100만원</span></button>
+	</div>
+</div>
+<p class="txtList caution">금액은 만원 단위</p>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='기간' data-voice="">
+<div class="setHalf">
+	<input type="tel" class="ipt date">
+	<span class="sign">~</span>
+	<input type="tel" class="ipt date">
+</div>
+<ul class="iptFilt min">
+	<li>
+		<input type="radio" class="ipt" name="rdo8" id="rdo8_1">
+		<label for="rdo8_1">1주일</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo8" id="rdo8_2">
+		<label for="rdo8_2">1개월</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo8" id="rdo8_3">
+		<label for="rdo8_3">3개월</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo8" id="rdo8_4">
+		<label for="rdo8_4">6개월</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo8" id="rdo8_5">
+		<label for="rdo8_5">1년</label>
+	</li>
+</ul>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='안내 메시지 aria-describedby="id"' data-voice='생년월일 생년월일입력 텍스트필드 숫자만 입력하세요. 편집하려면 이중탭 하십시오'>
+<input type="tel" class="ipt" title="생년월일">
+<p class="fieldMsg">숫자만 입력하세요.</p>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='오류 aria-invalid="true" + 메시지 aria-describedby="id"' data-voice='생년월일 생년월일입력 텍스트필드 유효하지 않은 데이터 생년월일을 입력해주세요. 편집하려면 이중탭 하십시오'>
+<input type="tel" class="ipt error" title="생년월일" aria-invalid="true">
+<p class="fieldMsg error">생년월일을 입력해주세요.</p>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='성공 aria-invalid="false" + 메시지 aria-describedby="id"' data-voice='인증번호 인증번호입력 텍스트필드 인증에 성공하였습니다. 편집하려면 이중탭 하십시오'>
+<input type="tel" class="ipt success" title="인증번호" aria-invalid="false">
+<p class="fieldMsg success">인증에 성공하였습니다.</p>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='첨부파일 - 기본'>
+<input type="file" class="ipt" title="파일첨부하기">
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='select'>
+<select class="ipt" title="셀렉트">
+	<option selected>셀렉트</option>
+	<option>셀렉트</option>
+	<option>셀렉트</option>
+</select>
+<select class="ipt" title="셀렉트" disabled="disabled">
+	<option>셀렉트</option>
+	<option>셀렉트</option>
+	<option>셀렉트</option>
+	<option selected="selected">disabled="disabled"</option>
+</select>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='select - 모바일에서 라디오로 변환'>
+<select class="ipt min transSlt" title="연락처">
+	<option selected>휴대폰</option>
+	<option>직장</option>
+	<option>자택</option>
+</select>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='textarea' data-desc='기본 4줄 노출'>
+<textarea class="ipt" title="내용입력"></textarea>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='checkbox'>
+<span class="single">
+	<input type="checkbox" class="ipt" name="" id="chk_1"><label for="chk_1">체크박스</label>
+</span>
+
+<span class="single">
+	<input type="checkbox" class="ipt" name="" id="chk_2" checked="checked"><label for="chk_2">체크박스 check</label>
+</span>
+
+<span class="single">
+	<input type="checkbox" class="ipt" name="" id="chk_3" disabled="disabled"><label for="chk_3">체크박스 disabled</label>
+</span>
+
+<span class="single">
+	<input type="checkbox" class="ipt" name="" id="chk_4" checked="checked" disabled="disabled"><label for="chk_4">체크박스 check + disabled</label>
+</span>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='checkbox 묶음 - 가로'>
+<ul class="iptGroup">
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_1">
+		<label for="chk2_1">9시~10시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_2">
+		<label for="chk2_2">10시~11시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_3">
+		<label for="chk2_3">11시~12시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_4">
+		<label for="chk2_4">12시~1시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_5">
+		<label for="chk2_5">1시~2시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_6">
+		<label for="chk2_6">2시~3시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_7">
+		<label for="chk2_7">3시~4시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_8">
+		<label for="chk2_8">4시~5시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_9">
+		<label for="chk2_9">5시~6시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_10">
+		<label for="chk2_10">6시~7시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_11">
+		<label for="chk2_11">7시~8시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk2" id="chk2_12">
+		<label for="chk2_12">8시~9시</label>
+	</li>
+</ul>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='checkbox 묶음 - 세로'>
+<ul class="iptGroup vertical">
+	<li>
+		<input type="checkbox" class="ipt" name="chk3" id="chk3_1">
+		<label for="chk3_1">9시~10시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk3" id="chk3_2">
+		<label for="chk3_2">10시~11시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk3" id="chk3_3">
+		<label for="chk3_3">11시~12시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk3" id="chk3_4">
+		<label for="chk3_4">12시~1시</label>
+	</li>
+	<li>
+		<input type="checkbox" class="ipt" name="chk3" id="chk3_5">
+		<label for="chk3_5">1시~2시</label>
+	</li>
+</ul>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='radio'>
+<span class="single">
+	<input type="radio" class="ipt" name="" id="rdo_1"><label for="rdo_1">라디오</label>
+</span>
+
+<span class="single">
+	<input type="radio" class="ipt" name="" id="rdo_2" checked="checked"><label for="rdo_2">라디오 check</label>
+</span>
+
+<span class="single">
+	<input type="radio" class="ipt" name="" id="rdo_3" disabled="disabled"><label for="rdo_3">라디오 disabled</label>
+</span>
+
+<span class="single">
+	<input type="radio" class="ipt" name="" id="rdo_4" checked="checked" disabled="disabled"><label for="rdo_4">라디오 check + disabled</label>
+</span>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='radio 묶음 - 가로'>
+<ul class="iptGroup">
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_1">
+		<label for="rdo2_1">9시~10시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_2">
+		<label for="rdo2_2">10시~11시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_3">
+		<label for="rdo2_3">11시~12시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_4">
+		<label for="rdo2_4">12시~1시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_5">
+		<label for="rdo2_5">1시~2시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_6">
+		<label for="rdo2_6">2시~3시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_7">
+		<label for="rdo2_7">3시~4시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_8">
+		<label for="rdo2_8">4시~5시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_9">
+		<label for="rdo2_9">5시~6시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_10">
+		<label for="rdo2_10">6시~7시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_11">
+		<label for="rdo2_11">7시~8시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo2" id="rdo2_12">
+		<label for="rdo2_12">8시~9시</label>
+	</li>
+</ul>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='radio 묶음 - 세로'>
+<ul class="iptGroup vertical">
+	<li>
+		<input type="radio" class="ipt" name="rdo3" id="rdo3_1">
+		<label for="rdo3_1">9시~10시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo3" id="rdo3_2">
+		<label for="rdo3_2">10시~11시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo3" id="rdo3_3">
+		<label for="rdo3_3">11시~12시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo3" id="rdo3_4">
+		<label for="rdo3_4">12시~1시</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="rdo3" id="rdo3_5">
+		<label for="rdo3_5">1시~2시</label>
+	</li>
+</ul>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='radio 묶음 - 옵션(값) 선택' data-desc="1개일 땐 div, 2개이상일 땐 ul > li">
+<div class="optPick">
+	<p class="label">옵션(값) 선택</p>
+	<ul class="iptGroup div_4">
+		<li>
+			<input type="checkbox" class="ipt" name="optPick3" id="optPick3_1">
+			<label for="optPick3_1">옵션(값) 1</label>
+		</li>
+		<li>
+			<input type="checkbox" class="ipt" name="optPick3" id="optPick3_2">
+			<label for="optPick3_2">옵션(값) 2</label>
+		</li>
+		<li>
+			<input type="checkbox" class="ipt" name="optPick3" id="optPick3_3">
+			<label for="optPick3_3">옵션(값) 3</label>
+		</li>
+		<li>
+			<input type="checkbox" class="ipt" name="optPick3" id="optPick3_4">
+			<label for="optPick3_4">옵션(값) 4</label>
+		</li>
+		<li>
+			<input type="checkbox" class="ipt" name="optPick3" id="optPick3_5">
+			<label for="optPick3_5">옵션(값) 5</label>
+		</li>
+	</ul>
+</div>
+
+<ul class="optPick">
+	<li>
+		<p class="label">보장</p>
+		<ul class="iptGroup div_4">
+			<li>
+				<input type="checkbox" class="ipt" name="optPick1" id="optPick1_1">
+				<label for="optPick1_1">사망보장</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick1" id="optPick1_2">
+				<label for="optPick1_2">질병/상해보장</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick1" id="optPick1_3">
+				<label for="optPick1_3">암/중대질병보장</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick1" id="optPick1_4">
+				<label for="optPick1_4">자녀보장</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick1" id="optPick1_5">
+				<label for="optPick1_5">치매보장</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick1" id="optPick1_6">
+				<label for="optPick1_6">간병보장</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick1" id="optPick1_7">
+				<label for="optPick1_7">저축(목돈마련)</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick1" id="optPick1_8">
+				<label for="optPick1_8">연금(노후보장)</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick1" id="optPick1_9">
+				<label for="optPick1_9">변액(투자)</label>
+			</li>
+		</ul>
+	</li>
+	<li>
+		<p class="label">서비스 (선택)</p>
+		<ul class="iptGroup div_4">
+			<li>
+				<input type="checkbox" class="ipt" name="optPick2" id="optPick2_1">
+				<label for="optPick2_1">가입보험점검</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick2" id="optPick2_2">
+				<label for="optPick2_2">보험리모델링</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick2" id="optPick2_3">
+				<label for="optPick2_3">월급관리</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick2" id="optPick2_4">
+				<label for="optPick2_4">상속/증여</label>
+			</li>
+			<li>
+				<input type="checkbox" class="ipt" name="optPick2" id="optPick2_5">
+				<label for="optPick2_5">금융세미나</label>
+			</li>
+		</ul>
+	</li>
+</ul>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done" data-title='Sorting 버튼'>
+<ul class="iptSort">
+	<li>
+		<input type="radio" class="ipt" name="sort" id="sort_1" checked="checked">
+		<label for="sort_1">조회수순</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="sort" id="sort_2">
+		<label for="sort_2">최신순</label>
+	</li>
+</ul>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='Filter 버튼' data-desc=''>
+<ul class="iptFilt">
+	<li>
+		<input type="radio" class="ipt" name="filter" id="filter_1" checked="checked">
+		<label for="filter_1">SKT</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="filter" id="filter_2">
+		<label for="filter_2">KT</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="filter" id="filter_3">
+		<label for="filter_3">LGU+</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="filter" id="filter_4">
+		<label for="filter_4">알뜰폰 SKT</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="filter" id="filter_5">
+		<label for="filter_5">알뜰폰 KT</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="filter" id="filter_6">
+		<label for="filter_6">알뜰폰 LGU+asdfasdf</label>
+	</li>
+</ul>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='hashTag형 버튼' data-desc=''>
+<ul class="iptHash">
+	<li>
+		<input type="radio" class="ipt" name="hash" id="hash_1" checked="checked">
+		<label for="hash_1">#관광지</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="hash" id="hash_2">
+		<label for="hash_2">#행사/공연/축제</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="hash" id="hash_3">
+		<label for="hash_3">#문화시설</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="hash" id="hash_4">
+		<label for="hash_4">#음식점</label>
+	</li>
+	<li>
+		<input type="radio" class="ipt" name="hash" id="hash_5">
+		<label for="hash_5">#쇼핑</label>
+	</li>
+</ul>
+</div><!-- section -->
+
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='별점 버튼' data-url="/html_cdi/cdi/CDIPGC0011.html">
+<div class="iptStar">
+	<input type="radio" class="ipt" name="starGroup1" id="star1_1">
+	<label for="star1_1"><span class="blind">5점만점에 1점</span></label>
+	<input type="radio" class="ipt" name="starGroup1" id="star1_2">
+	<label for="star1_2"><span class="blind">5점만점에 2점</span></label>
+	<input type="radio" class="ipt" name="starGroup1" id="star1_3">
+	<label for="star1_3"><span class="blind">5점만점에 3점</span></label>
+	<input type="radio" class="ipt" name="starGroup1" id="star1_4">
+	<label for="star1_4"><span class="blind">5점만점에 4점</span></label>
+	<input type="radio" class="ipt" name="starGroup1" id="star1_5">
+	<label for="star1_5"><span class="blind">5점만점에 5점</span></label>
+</div>
+</div><!-- section -->
+<!---------------------- section ----------------------->
+<div class="section done notReplace" data-title='toggle 버튼' data-desc='토글버튼 뒤에 텍스트가 와야할 경우 aria-hidden="true" 사용' >
+<div class="toggleBtnArea">
+	<span class="toggleSwitch">
+		<input type="checkbox" id="switch">
+		<label for="switch"><span class="blind">판매중지 상품 제외</span></label>
+	</span>
+	<span aria-hidden="true">판매중지 상품 제외</span>
+</div>
+</div><!-- section -->
+
+
+</div><!-- likeSubpage -->
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+    <path data-name="패스 2219" d="M42.893 27.636c0 11.012-16.085 20.772-21.447 20.772S0 38.648 0 27.636V6.868C0 5.957 10.766 2.5 21.817 2.5c10.4 0 21.077 3.456 21.077 4.364z" transform="translate(7 2.496)" style="fill:#0069b4"/>
+    <g data-name="타원 582" transform="translate(24.5 9.904)" style="stroke-width:2.5px;stroke:#fff;fill:none">
+        <circle cx="4" cy="4" r="4" style="stroke:none"/>
+        <circle cx="4" cy="4" r="2.75" style="fill:none"/>
+    </g>
+    <path data-name="선 11" transform="translate(28.5 17.5)" style="stroke-linecap:round;stroke-width:2.5px;stroke:#fff;fill:none" d="M0 0v4"/>
+    <path data-name="선 18" transform="translate(29.5 36)" style="stroke:#f59d24;stroke-linecap:round;stroke-width:2.5px;fill:none" d="M2 0H0"/>
+    <path data-name="선 19" transform="translate(29.5 39.5)" style="stroke:#f59d24;stroke-linecap:round;stroke-width:2.5px;fill:none" d="M2 0H0"/>
+    <path data-name="선 12" transform="translate(28.5 26.5)" style="stroke:#f59d24;stroke-linecap:round;stroke-width:2.5px;fill:none" d="M0 0v16"/>
+    <path data-name="선 13" transform="translate(15.5 19)" style="stroke:#f59d24;stroke-linecap:round;stroke-width:2.5px;fill:none" d="m0 0 13 7.5"/>
+    <path data-name="선 14" transform="translate(28.5 19)" style="stroke:#f59d24;stroke-linecap:round;stroke-width:2.5px;fill:none" d="M13 0 0 7.5"/>
+    <path data-name="선 16" transform="translate(15.5 29.5)" style="stroke-linecap:round;stroke-width:2.5px;stroke:#fff;fill:none" d="M0 4.5 8 0"/>
+    <path data-name="선 17" transform="translate(33.5 29.5)" style="stroke-linecap:round;stroke-width:2.5px;stroke:#fff;fill:none" d="M8 4.5 0 0"/>
+</svg>

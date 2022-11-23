@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <filter id="8r87tkwwia" x="0" y="0" width="40" height="40" filterUnits="userSpaceOnUse">
+            <feComposite in="SourceGraphic"/>
+        </filter>
+    </defs>
+    <g data-name="# float_tip">
+
+        <g data-name="그룹 626050" transform="translate(-287.5 -3)">
+            <path data-name="패스 2630" d="M2 0a1.908 1.908 0 0 1 2 1.8L3 8.1A.881.881 0 0 1 2 9a.881.881 0 0 1-1-.9L0 1.8A1.908 1.908 0 0 1 2 0z" transform="translate(305.499 16)" style="fill:#fff"/>
+            <circle data-name="타원 545" cx="1.5" cy="1.5" r="1.5" transform="translate(305.999 27)" style="fill:#fff"/>
+        </g>
+    </g>
+</svg>

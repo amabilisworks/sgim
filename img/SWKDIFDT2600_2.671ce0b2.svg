@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="444" height="261" viewBox="0 0 444 261">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(255,191,191,0.5);
+        opacity: 0;
+      }
+
+      .cls-2 {
+        fill: #dcf5fb;
+      }
+
+      .cls-3 {
+        fill: #fbf0e3;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke: #222;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3px;
+      }
+
+      .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-6 {
+        fill: #afdae9;
+      }
+
+      .cls-7 {
+        fill: #fcf28d;
+      }
+
+      .cls-8, .cls-9 {
+        fill: #f2ac58;
+      }
+    </style>
+  </defs>
+  <g id="SWKDIFDT2600_2" transform="translate(-622 -2020)">
+    <rect id="BG" class="cls-1" width="444" height="261" transform="translate(622 2020)"/>
+    <ellipse id="타원_559" data-name="타원 559" class="cls-2" cx="43.5" cy="44" rx="43.5" ry="44" transform="translate(664 2107)"/>
+    <circle id="타원_560" data-name="타원 560" class="cls-3" cx="31.5" cy="31.5" r="31.5" transform="translate(961 2020)"/>
+    <g id="img_01" transform="translate(568.729 2012.5)">
+      <path id="line" class="cls-4" d="M455.77,236h-360" transform="translate(-0.5 -0.5)"/>
+      <g id="그룹_1551" data-name="그룹 1551">
+        <path id="패스_2508" data-name="패스 2508" class="cls-5" d="M203.839,59H175.77v87h200V59H203.839Z"/>
+        <rect id="사각형_651" data-name="사각형 651" class="cls-6" width="165" height="22" transform="translate(192.77 90)"/>
+        <g id="그룹_1550" data-name="그룹 1550">
+          <path id="패스_2509" data-name="패스 2509" class="cls-7" d="M348.77,92V258.124A6.934,6.934,0,0,1,341.817,265H209.723a6.935,6.935,0,0,1-6.953-6.876V92"/>
+          <g id="그룹_1549" data-name="그룹 1549">
+            <path id="패스_2510" data-name="패스 2510" class="cls-5" d="M330.77,92V245a2,2,0,0,1-2,2h-106a2,2,0,0,1-2-2V92"/>
+            <g id="그룹_1547" data-name="그룹 1547">
+              <path id="패스_2511" data-name="패스 2511" class="cls-8" d="M299.9,134.862h19.74l-5.705-9.239,5.705-9.275h-20"/>
+              <g id="그룹_1546" data-name="그룹 1546">
+                <circle id="타원_114" data-name="타원 114" class="cls-4" cx="20" cy="20" r="20" transform="translate(260.77 104)"/>
+                <path id="패스_2512" data-name="패스 2512" class="cls-9" d="M268.073,124a12.7,12.7,0,1,0,12.7-12.7A12.711,12.711,0,0,0,268.073,124Z"/>
+              </g>
+            </g>
+            <g id="그룹_1548" data-name="그룹 1548">
+              <line id="선_704" data-name="선 704" class="cls-4" y1="88" transform="translate(246.251 141)"/>
+              <line id="선_705" data-name="선 705" class="cls-4" y1="41" transform="translate(262.251 188)"/>
+              <line id="선_706" data-name="선 706" class="cls-4" y1="20" transform="translate(281.251 209)"/>
+              <line id="선_707" data-name="선 707" class="cls-4" y1="32" transform="translate(294.251 197)"/>
+              <line id="선_708" data-name="선 708" class="cls-4" y1="27" transform="translate(281.251 171)"/>
+              <line id="선_709" data-name="선 709" class="cls-4" y1="17" transform="translate(294.251 170)"/>
+              <line id="선_710" data-name="선 710" class="cls-4" y1="47" transform="translate(307.251 182)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+      <g id="그룹_1552" data-name="그룹 1552">
+        <path id="패스_2513" data-name="패스 2513" class="cls-4" d="M423.308,109.925l-8.767,8.767-8.767-8.767"/>
+        <path id="패스_2514" data-name="패스 2514" class="cls-4" d="M423.308,120.541l-8.767,8.767-8.767-8.767"/>
+        <path id="패스_2515" data-name="패스 2515" class="cls-4" d="M423.308,131.158l-8.767,8.767-8.767-8.767"/>
+      </g>
+      <g id="그룹_1553" data-name="그룹 1553">
+        <path id="패스_2516" data-name="패스 2516" class="cls-4" d="M155.308,169.925l-8.767,8.767-8.767-8.767"/>
+        <path id="패스_2517" data-name="패스 2517" class="cls-4" d="M155.308,180.541l-8.767,8.767-8.767-8.767"/>
+        <path id="패스_2518" data-name="패스 2518" class="cls-4" d="M155.308,191.158l-8.767,8.767-8.767-8.767"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="mask" width="40" height="40" transform="translate(302 254)" fill="red"/>
+    </clipPath>
+  </defs>
+  <g id="bank_logo_054" transform="translate(-302 -254)">
+    <g id="mask_a" data-name="mask a" clip-path="url(#clip-path)">
+      <circle id="area" cx="20" cy="20" r="20" transform="translate(302 254)" fill="#da000a"/>
+      <path id="Path_74" data-name="Path 74" d="M-1681.024-632.008l-.007.007h-11.956l.005-.005L-1699-638l6.024-6v.008l.007-.008h11.957l-.005.005L-1675-638l-6.024,6ZM-1692.977-638v5.989l5.952-5.975-5.952-5.975Zm11.953,5.962V-643.99l-5.952,5.975Z" transform="translate(2009 912)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

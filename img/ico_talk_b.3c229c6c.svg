@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+    <g data-name="그룹 625712">
+        <path data-name="패스 2221" d="M33 28.909h-2.062V31.5a.5.5 0 0 1-.859.348L26.3 29.213a1 1 0 0 0-.718-.3H15a1 1 0 0 1-1-1V15a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v12.909a1 1 0 0 1-1 1" transform="translate(4 4)" style="fill:#ccdcfc"/>
+        <path data-name="패스 2222" d="M0 3v16a3 3 0 0 0 3 3h1v4a1 1 0 0 0 1.651.759L11 22h16a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3H3a3 3 0 0 0-3 3" transform="translate(2 4)" style="fill:#516eeb"/>
+    </g>
+    <g data-name="그룹 625713">
+        <path data-name="패스 2223" d="M10 11.059A2 2 0 1 1 7.995 9 2.031 2.031 0 0 1 10 11.056" transform="translate(2 4)" style="fill:#fff"/>
+        <path data-name="패스 2224" d="M17 11.059A2 2 0 1 1 14.995 9 2.031 2.031 0 0 1 17 11.056" transform="translate(2 4)" style="fill:#fff"/>
+        <path data-name="패스 2225" d="M24 11.059A2 2 0 1 1 22 9a2.031 2.031 0 0 1 2 2.056" transform="translate(2 4)" style="fill:#fff"/>
+    </g>
+</svg>
