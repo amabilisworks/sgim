@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <g data-name="타원 51" transform="translate(2 2)" style="stroke:#fff;stroke-linecap:round;stroke-width:2px;fill:transparent">
-        <circle cx="10" cy="10" r="10" style="stroke:none"/>
-        <circle cx="10" cy="10" r="9" style="fill:none"/>
-    </g>
-    <path data-name="패스 2538" d="m9.071 14.119 4-3.5-4-3.5" transform="rotate(90 10.595 12.025)" style="fill:none;stroke:#fff;stroke-linecap:round;stroke-width:2px"/>
-</svg>

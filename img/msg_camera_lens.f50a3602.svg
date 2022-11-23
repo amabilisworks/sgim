@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
-    <g data-name="그룹 626063" transform="translate(2 1.383)">
-        <circle data-name="타원 567" cx="15.5" cy="15.5" r="15.5" transform="translate(-2 -1.383)" style="fill:#ffbc00"/>
-        <path data-name="합치기 1" d="M2 16a2 2 0 0 1-2-2V4.667a2 2 0 0 1 2-2h2.675L5.1.889C5.225.382 5.481 0 5.95 0h5.1c.469 0 .749.441.85.889l.425 1.778H15a2 2 0 0 1 2 2V14a2 2 0 0 1-2 2z" transform="translate(5 5.617)" style="fill:#fff"/>
-        <circle data-name="타원 33" cx="3.5" cy="3.5" r="3.5" transform="translate(10 11.617)" style="fill:#ffbc00"/>
-    </g>
-</svg>

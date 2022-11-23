@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80">
-    <g transform="translate(-127.795 -122)">
-        <path transform="translate(127.795 122)" style="fill:#fff" d="M0 0h80v80H0z"/>
-        <rect data-name="사각형 459461" width="80" height="60" rx="8" transform="translate(127.795 127)" style="fill:#2b6ff0"/>
-        <path data-name="사각형 459461" d="M4 0h24a4 4 0 0 1 4 4v2H0V4a4 4 0 0 1 4-4z" transform="translate(152.795 191)" style="fill:#2b6ff0"/>
-    </g>
-</svg>
